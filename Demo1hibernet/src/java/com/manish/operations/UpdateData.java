@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.manish.bean;
+package com.manish.operations;
 
+import com.manish.bean.Student;
 import com.manish.utility.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -26,8 +27,8 @@ public class UpdateData {
         sb.setC(100);
         sb.setE(89);
        sb.setEnroll("0111CS2211101");
-        sb.setH(100);
-        sb.setM(90);
+                            sb.setH(100);
+        sb.setM(80);
         sb.setName("Vikash Kumar singh");
         sb.setP(99);
         sb.setSid(31);
